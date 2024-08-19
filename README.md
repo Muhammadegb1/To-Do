@@ -44,12 +44,12 @@ This project is a web-based task management (To-Do List) application. It allows 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/your-repository-name.git
+    git clone https://github.com/Muhammadegb1/To-Do.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd your-repository-name
+    cd To-Do
     ```
 
 3. Install dependencies:
