@@ -64,6 +64,6 @@ This project is a web-based task management (To-Do List) application. It allows 
 
 5. Open your browser and go to:
     ```
-    http://localhost:3000](http://localhost:3000/login 
+    http://localhost:3000/login :
     ```
 
