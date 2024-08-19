@@ -1,0 +1,103 @@
+/* todosUser.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(img.jpg);
+  background-position: center;
+
+}
+
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+    background: transparent;
+    padding: 40px;
+    border-radius: 40px;
+    border: 2px solid rgba(255, 255, 255,0.2);
+    backdrop-filter: blur(30px);
+
+}
+
+h1 {
+    text-align: center;
+    
+}
+input[type="text"] {
+    width: 87%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #352121;
+    border-radius: 15px;
+    font-family: Arial, sans-serif; 
+    font-size: 20px; 
+    line-height: 1.5;
+    font-weight: bold;
+
+  }
+   
+  
+button {
+    padding: 8px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+
+  }
+  
+  li {
+    margin: 10px 0;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    background: transparent;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: left;
+    width: 50%;
+    border: 2px solid rgba(255, 255, 255, 2);
+    font-size: large;
+}
+  li span {
+    font-weight: bold;
+  }
+  
+
+ button:hover {
+    background-color: #ebe6e6;
+    color: black; 
+
+  }
+  
+
+  .task-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.task-container li {
+    flex-grow: 1;  
+}
+
+.task-container span {
+    white-space: normal;  /* Allows the text to wrap */
+    overflow: visible;    /* Let text be visible even when it overflows */
+    word-wrap: break-word; /* Break the word to prevent overflow */
+    max-width: 80%;       /* Set a max-width to reserve space for buttons */
+}
+
+
+div{
+  text-align: center;
+}

@@ -1,0 +1,28 @@
+<!-- client/LoginUser.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style> form{height:400px;} </style>
+</head>
+<body>
+
+    <form action="/login" method="POST">
+        <h1>Login</h1>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br>
+        <button type="submit">Login</button>
+        <div>
+            <p> Don't have an account?  <a href="RegisterUser.html"> Sign up</a>
+            </p>
+        </div>
+    </form>
+
+    
+</body>
+</html>
