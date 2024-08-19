@@ -4,6 +4,6 @@ This project is a web-based task management (To-Do List) application. It allows 
 
 http://localhost:3000/login :
 
-![image](https://github.com/user-attachments/assets/0edd42a0-6dbe-4b16-a180-48f7d6e8babb)
+![Uploading image.png…]()
 
 
